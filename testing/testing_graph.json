@@ -1,0 +1,43 @@
+{
+  "actor_nodes": [
+    {
+      "name": "John Jim",
+      "age": 20,
+      "total_grossing_value": null,
+      "adjacency_list": [
+        {
+          "name": "Creeper",
+          "weight": 60000
+        }
+      ]
+    },
+    {
+      "name": "Fred Ward",
+      "age": 30,
+      "total_grossing_value": null,
+      "adjacency_list": [
+        {
+          "name": "Creeper",
+          "weight": 40000
+        }
+      ]
+    }
+  ],
+  "movie_nodes": [
+    {
+      "name": "Creeper",
+      "box_office": 100000,
+      "year": 2000,
+      "adjacency_list": [
+        {
+          "name": "John Jim",
+          "weight": 60000
+        },
+        {
+          "name": "Fred Ward",
+          "weight": 40000
+        }
+      ]
+    }
+  ]
+}
